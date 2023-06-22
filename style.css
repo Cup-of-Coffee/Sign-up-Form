@@ -1,7 +1,17 @@
 
+@font-face {
+    font-family: "Norse Bold";
+    src: url("Norse-Bold.otf");
+}
+
+body {
+
+}
+
 #container {
     display: flex;
     flex-direction: row;
+
 }
 
 #left {
@@ -13,3 +23,17 @@
 
 }
 
+#black {
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+#logo {
+    font-family: Norse Bold;
+    font-size: 75px;
+}
+
+#icon {
+    width: 95px;
+    height: 127px;
+}
