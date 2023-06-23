@@ -32,6 +32,7 @@ html, body {
 }
 
 #logo {
+    background-color: rgba(0,0,0,0.5);
     font-family: Norse Bold;
     font-size: 75px;
 }
