@@ -16,6 +16,12 @@ a {
     padding: 5px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
 #container {
     display: flex;
     flex-direction: row;
@@ -65,4 +71,10 @@ a {
 
 #fancy {
     font-style: italic;
+}
+
+#inputs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
