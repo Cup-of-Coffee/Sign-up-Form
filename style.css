@@ -10,10 +10,16 @@ html, body {
     width: 100%;
 }
 
-a {
+#footer a {
     color: #ffffff;
-    text-decoration: underline;
     padding: 5px;
+    text-decoration: underline;
+}
+
+#login a {
+    color: #606C5D;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 form {
