@@ -36,7 +36,9 @@ button {
     font-size: 15px;
     background-color: #606C5D;
     padding: 15px 50px;
-    border-radius: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #434242;
 }
 
 .text {
