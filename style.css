@@ -10,10 +10,23 @@ html, body {
     width: 100%;
 }
 
+#footer {
+    position: relative;
+    bottom: 25px;
+}
+
 #footer a {
     color: #ffffff;
     padding: 5px;
     text-decoration: underline;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 90%;
+    gap: 20px;
 }
 
 #login a {
@@ -51,6 +64,9 @@ button {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding: 15px;
+    padding-left: 50px;
+    width: 90%;
 }
 
 #container {
@@ -65,13 +81,13 @@ button {
     justify-content: space-between;
     background-image: url("background.jpg");
     color: #ffffff;
-    width: 30%;
+    width: 40%;
 }
 
 #right {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
 }
 
 #footer {
@@ -93,6 +109,8 @@ button {
     background-color: rgba(0,0,0,0.4);
     font-family: Norse Bold;
     font-size: 75px;
+    position: relative;
+    top: 200px;
 }
 
 #icon {
@@ -108,4 +126,7 @@ button {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 15px;
+    width: 90%;
+    gap: 20px;
 }
