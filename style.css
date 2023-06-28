@@ -69,6 +69,10 @@ button {
     width: 90%;
 }
 
+.top {
+    padding-top: 100px;
+}
+
 #container {
     display: flex;
     flex-direction: row;
